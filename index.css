@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: purple;
+    color: whitesmoke;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    text-align: center;
+}
+h1{
+    margin: 12px 0  12px 0;
+}
+label{
+    font-size: medium;
+    font-weight: bold;
+    margin: 12px 0  12px 0;
+}
+input{
+    margin: 12px 0 12px 0;
+    width: 50%;
+    height: 32px;
+    padding: 3px 13px 3px 13px;
+}
+.btn{
+    padding: 8px 8px 8px 8px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    border-right: 5px blue solid;
+}
+
+span{
+    margin-top: 12px;
+    font-size: large;
+    font-weight: bold;
+}
