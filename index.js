@@ -2,7 +2,13 @@ const birthdateElem = document.querySelector('#birthdate');
 const luckyNumberElem = document.querySelector('#lucky-number');
 const resultBtn = document.querySelector('.btn');
 const resultElem = document.querySelector('.result');
+const navbar = document.querySelector('nav');
 
+console.log(navbar);
+
+setTimeout(()=>{
+    navbar.remove();
+},4000)
 
 function CheckLuckyNumber(birthdateElem, luckynumberElem){
 

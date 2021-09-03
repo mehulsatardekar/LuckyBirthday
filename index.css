@@ -6,6 +6,17 @@ body{
     background-color: purple;
     color: whitesmoke;
 }
+
+nav{
+    display: flex;
+    text-align: center;
+justify-content: center;
+    flex-direction: row;
+    font-size: 1.2rem;
+    padding: 12px;
+    transition: ease-in;
+    background-color: rgb(107, 107, 250);
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -13,6 +24,7 @@ body{
     align-items: center;
     margin-top: 32px;
     text-align: center;
+    height: 73vh;
 }
 h1{
     margin: 12px 0  12px 0;
@@ -40,4 +52,41 @@ span{
     margin-top: 12px;
     font-size: large;
     font-weight: bold;
+}
+
+
+footer{
+    background-color: rgb(252, 250, 251);
+    text-align: center;
+}
+footer > h4{
+  
+    font-size: 2rem;
+    color: rgb(43, 42, 42);
+    padding-top: 22px;
+} 
+footer > .icons{
+    padding-top: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 21px;
+}
+footer > .icons> ul > {
+    list-style: none;
+}
+
+footer > .icons >ul > li{
+    list-style: none;
+}
+footer > .icons> ul > li> a>{
+    list-style: none;
+    text-decoration: none;
+
+}
+footer > .icons> ul > li> a> img{
+    padding: 12px 12px 12px 12px;
+
+   height: 40px;
 }
