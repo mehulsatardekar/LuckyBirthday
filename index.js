@@ -3,6 +3,7 @@ const luckyNumberElem = document.querySelector('#lucky-number');
 const resultBtn = document.querySelector('.btn');
 const resultElem = document.querySelector('.result');
 const navbar = document.querySelector('nav');
+const resultImg = document.querySelector('.resultimg');
 
 console.log(navbar);
 
@@ -29,8 +30,12 @@ if(luckyNumberElem.value && birthdateElem.value){
 
     if(sumofbirthdate%luckyNumber ==0){
         resultElem.innerText = `Your Birthday is Lucky 😎😉`;
+        resultImg.innerHTML = '';
+        resultImg.innerHTML = '<img src="./src/lucky.svg" />'
     }else{
         resultElem.innerText = `${luckyNumber} is not that Lucky 🤷‍♀️`;
+        resultImg.innerHTML = '';
+        resultImg.innerHTML = '<img src="./src/notlucky.svg" />'
     }
 
  }else{

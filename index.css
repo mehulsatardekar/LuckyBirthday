@@ -24,7 +24,7 @@ justify-content: center;
     align-items: center;
     margin-top: 32px;
     text-align: center;
-    height: 73vh;
+    height: 90vh;
 }
 h1{
     margin: 12px 0  12px 0;
@@ -89,4 +89,8 @@ footer > .icons> ul > li> a> img{
     padding: 12px 12px 12px 12px;
 
    height: 40px;
+}
+
+.resultimg{
+    height: 20px;
 }
